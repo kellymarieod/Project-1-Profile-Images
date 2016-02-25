@@ -26,6 +26,7 @@ h2 {
   font-family: 'Bad Script', cursive;
   width: 98%;
   margin: 1%;
+  clear: left;
 }
 
 .flower-pics {
