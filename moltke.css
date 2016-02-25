@@ -1,3 +1,33 @@
 body {
-  background-color: pink;
+  background-color: black;
+  color: white;
+}
+
+.header {
+  text-align: center;
+  font-family: 'Homemade Apple', cursive;
+  font-weight: normal;
+}
+
+.main-content {
+  font-family: 'Bad Script', cursive;
+  width: 100%;
+}
+
+.main-content img {
+  width: 20%;
+  margin: 1%;
+  float:left;
+
+}
+
+
+.footer {
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+.footer img {
+  margin-bottom: 0;
+  width: 100%;
 }
