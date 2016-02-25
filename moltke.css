@@ -5,17 +5,31 @@ body {
   padding-bottom: 25%;
 }
 
+h1 {
+  font-size: 100px;
+  margin: 1%;
+}
+
+h2 {
+  font-size: 50px;
+  margin: 1%;
+}
+
 .header {
   text-align: center;
   font-family: 'Homemade Apple', cursive;
+  margin: 1px;
 }
 
 .main-content {
+  background-color: red;
   font-family: 'Bad Script', cursive;
-  width: 100%;
+  width: 98%;
+  margin: 1%;
 }
 
 .flower-pics {
+  background-color: darkgray;
   width: 22%;
   margin: 1%;
   float:left;
@@ -30,8 +44,13 @@ body {
 }
 
 
+.cabin-pic {
+  width: 100%;
+}
+
+
+
 .footer {
-  background-color: red;
   margin-bottom: 0;
   margin-left: 0;
   margin-right: 0;
@@ -40,8 +59,6 @@ body {
   left: 0;
   width: 100%;
   z-index: 1;
-
-
 }
 
 .footer img {
