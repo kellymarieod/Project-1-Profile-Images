@@ -1,12 +1,13 @@
 body {
   background-color: black;
   color: white;
+  margin: 0;
+  padding-bottom: 25%;
 }
 
 .header {
   text-align: center;
   font-family: 'Homemade Apple', cursive;
-  font-weight: normal;
 }
 
 .main-content {
@@ -14,23 +15,36 @@ body {
   width: 100%;
 }
 
-.flower-pics img {
-  width: 23%;
+.flower-pics {
+  width: 22%;
   margin: 1%;
   float:left;
+  text-align: center;
+  font-family: 'Homemade Apple', cursive;
+  border: solid gray 2px;
 
+}
+
+.flower-pics img {
+  width: 100%;
 }
 
 
 .footer {
+  background-color: red;
   margin-bottom: 0;
   margin-left: 0;
   margin-right: 0;
-  position: fixed; bottom: 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
   width: 100%;
-  margin-bottom: 0;
+  z-index: 1;
+
+
 }
+
 .footer img {
-  margin-bottom: 0;
+  display:block;
   width: 100%;
 }
