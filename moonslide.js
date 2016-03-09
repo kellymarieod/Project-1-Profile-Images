@@ -1,10 +1,10 @@
 $(document).ready( function() {
-  var textBox = $(".text-box");
+  var main-content = $(".text-box");
   var footer = $(".footer");
   var offset = 0;
 
   $(window).scroll( function() {
-    offset = $(window).scrollTop() - textBox.offset().top;
+    offset = $(window).scrollTop() - main-content.offset().top;
     // console.log(".text-box offset top " + textBox.offset().top);
     // console.log("window scroll top " + $(window).scrollTop());
     console.log("offset " + offset);
