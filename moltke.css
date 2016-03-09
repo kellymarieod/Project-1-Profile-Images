@@ -36,8 +36,8 @@ h2 {
 
 .flower-pics {
   background-color: darkgray;
-  width: 22%;
-  margin: 1%;
+  width: 21%;
+  margin: 1.75%;
   float:left;
   text-align: center;
   font-family: 'Homemade Apple', cursive;
@@ -68,6 +68,11 @@ h2 {
   left: 0;
   width: 100%;
   z-index: 1;
+  transition: bottom 500ms ease-in-out;
+}
+
+.footer.shrink {
+  bottom: -300px;
 }
 
 .footer img {
