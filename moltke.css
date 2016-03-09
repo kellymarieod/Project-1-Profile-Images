@@ -5,6 +5,10 @@ body {
   padding-bottom: 25%;
 }
 
+/*p {
+  text-indent: 5px;
+}*/
+
 h1 {
   font-size: 100px;
   margin: 1%;
@@ -24,8 +28,8 @@ h2 {
 .main-content {
   background-color: black;
   font-family: 'Bad Script', cursive;
-  width: 98%;
-  margin: 1%;
+  width: 90%;
+  margin: 5%;
   clear: left;
   font-size: 25px;
 }
